@@ -9,17 +9,37 @@ import hero5 from './img/hero5.jpeg';
 import hero6 from './img/food-program.jpeg';
 import hero7 from './img/pmc-outreach.jpg';
 import hero8 from './img/hero8.jpeg';
+import hero9 from './img/hero9.jpeg';
+import hero10 from './img/hero10.jpeg';
 
 function Hero() {
     return(
         <>
         <Carousel fade className='container'>
+        <Carousel.Item className="hero">
+                <img src={hero9} alt="conference-slide" />
+                <Carousel.Caption className="hero-content">
+                    <h3>Conference Meeting</h3>
+                    <p> 
+                        All Uganda Martyrs Macalder Catholic Parish Conference Meeting 2025
+                    </p>
+                </Carousel.Caption> 
+            </Carousel.Item>
             <Carousel.Item className="hero">
-                <img src={hero1} alt="orphans-slide" />
+                <img src={hero10} alt="orphans-slide" />
                 <Carousel.Caption className="hero-content">
                     <h3>Homelessness and Shelter Repair</h3>
                     <p> 
                         We are committed to addressing the issue of homelessness and ensuring safe living conditions for those in need.
+                    </p>
+                </Carousel.Caption> 
+            </Carousel.Item>
+            <Carousel.Item className="hero">
+                <img src={hero1} alt="orphans-slide" />
+                <Carousel.Caption className="hero-content">
+                    <h3>Elderly Companion</h3>
+                    <p> 
+                    We are dedicated to enriching the lives of seniors through warm, respectful, and reliable companionship services.
                     </p>
                 </Carousel.Caption> 
             </Carousel.Item>

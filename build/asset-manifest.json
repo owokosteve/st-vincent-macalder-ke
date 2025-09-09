@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d06a3442.css",
-    "main.js": "/static/js/main.29ba066b.js",
+    "main.js": "/static/js/main.4557d602.js",
     "static/js/787.33fb3582.chunk.js": "/static/js/787.33fb3582.chunk.js",
     "static/media/team.jpg": "/static/media/team.24e21cddfa69f593dc1f.jpg",
     "static/media/board1.png": "/static/media/board1.e5af191f0cf28db97719.png",
@@ -15,9 +15,11 @@
     "static/media/foundation1.jpeg": "/static/media/foundation1.9a91d1b36212cda3a8da.jpeg",
     "static/media/hero4.jpeg": "/static/media/hero4.4414620f9aed0da33add.jpeg",
     "static/media/rael.jpg": "/static/media/rael.6fc7f4921ed087891b35.jpg",
+    "static/media/hero10.jpeg": "/static/media/hero10.d1b44027b5fbf0cf1ef7.jpeg",
     "static/media/florence.jpg": "/static/media/florence.b4b8336a7779a2699ff0.jpg",
     "static/media/hero8.jpeg": "/static/media/hero8.ad5a66e60d78ac883878.jpeg",
     "static/media/food-program.jpeg": "/static/media/food-program.214ad26efde5a6188f6b.jpeg",
+    "static/media/hero9.jpeg": "/static/media/hero9.bee5aa8685d83174d569.jpeg",
     "static/media/commission1.jpeg": "/static/media/commission1.b96fe6a895d9a455fb44.jpeg",
     "static/media/hero1.jpg": "/static/media/hero1.2b4ab5155c583179cf9e.jpg",
     "static/media/image22.jpg": "/static/media/image22.fa6f4fb09dce768035ae.jpg",
@@ -90,11 +92,11 @@
     "static/media/image11.jpg": "/static/media/image11.05019e244384e032f4fe.jpg",
     "index.html": "/index.html",
     "main.d06a3442.css.map": "/static/css/main.d06a3442.css.map",
-    "main.29ba066b.js.map": "/static/js/main.29ba066b.js.map",
+    "main.4557d602.js.map": "/static/js/main.4557d602.js.map",
     "787.33fb3582.chunk.js.map": "/static/js/787.33fb3582.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d06a3442.css",
-    "static/js/main.29ba066b.js"
+    "static/js/main.4557d602.js"
   ]
 }
