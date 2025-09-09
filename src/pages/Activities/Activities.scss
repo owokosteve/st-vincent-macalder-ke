@@ -1,0 +1,43 @@
+.intro-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #d5f1d5;
+}
+  
+.intro-heading {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+  
+.intro-description {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.activities-section {
+  padding: 40px 0;
+  background-color: #d5f1d5;
+}
+
+.activity-details {
+  margin: 40px 0;
+}
+
+.activity-heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.activity-description {
+  font-size: 16px;
+}
+
+.activity-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,57 @@
+header {
+    #top-nav {
+        background-color: var(--primary);
+    }
+    #top-nav a {
+        color: green;
+    }
+    #mid-nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #main-nav a {
+        color: var(--secondary);
+        padding: .65rem .85rem;
+        font-weight: 700;
+        border-top: 5px solid var(--primary);
+        border-bottom: 5px solid var(--primary);
+    }
+    #main-nav a:hover {
+        background-color: var(--primary);
+    }
+    #main-nav a:focus {
+        background-color: var(--main);
+        color: var(--light);
+    }
+    #main-nav a:active {
+        background-color: var(--main);
+    }
+
+    .donate-btn {
+        background-color: var(--secondary);
+    }
+    .donate-btn:hover {
+        background-color: var(--main);
+        color: var(--primary);
+    }
+
+    .proposal {
+        text-decoration: none;
+        color: var(--secondary);
+        border: 2px solid var(--secondary);
+        border-radius: 25px;
+        font-size: .8rem;
+        font-weight: bold;
+    }
+    .proposal:hover {
+        color: var(--main);
+        // background-color: var(--main);
+        border-color: var(--main);
+        text-decoration: underline;
+
+    }
+}
+
+

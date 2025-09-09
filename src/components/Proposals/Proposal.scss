@@ -1,0 +1,21 @@
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card {
+  width: 100%;
+  padding: 20px;
+  background-color: #f5f5ee;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  color: #374f2f;
+}
+
+.project-card p {
+  line-height: 1.4;
+}

@@ -1,0 +1,119 @@
+.about {
+    padding-top: 20px;
+    background-color: #d5f1d5;
+}
+
+figure {
+  .vincent, .fred {
+    border: 3px solid var(--primary);
+    box-shadow: 5px 5px 10px rgba(3, 63, 6, 0.3);
+    transition: transform 0.3s ease;
+  }
+  .vincent:hover, .fred:hover {
+    transform: scale(1.1);
+  }
+}
+
+figcaption {
+  color: var(--main);
+  font-style: italic;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.mission-vision {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px; /* Adjust the gap between columns as desired */
+}
+.mission,
+.vision {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .mission-vision {
+    grid-template-columns: 1fr;
+  }
+}
+
+.vincentians {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+
+.section-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: green;
+}
+
+#challenges-section {
+  background-color: #d5f1d5;
+  padding: 20px;
+  color: #008000;
+}
+
+#challenges-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#challenges-section ul {
+  list-style-type: square;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+#challenges-section li {
+  margin-bottom: 10px;
+}
+
+.objectives {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #d5f1d5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.objectives ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.objectives li {
+  margin-bottom: 10px;
+  line-height: 1.4;
+  color: var(--main);
+}
+
+.long-term-objectives {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5ee;
+}
+
+.long-term-objectives h2 {
+  color: var(--secondary);
+}
+
+.long-term-objectives ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.long-term-objectives li {
+  margin-bottom: 10px;
+  line-height: 1.4;
+  color: var(--main);
+}
+
+
